@@ -4,7 +4,7 @@
     background-color: red;
     margin: 0 auto;
 }
-h2{
+h2, h3{
     text-align: center;
 }
 /* HEADER */
@@ -104,6 +104,9 @@ header ul li{
 }
 
 /* CONTACT */
+.contact{
+    padding-bottom: 2rem;
+}
 #ok{
     height: 250px;
     background-color: aqua;
