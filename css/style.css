@@ -1,3 +1,4 @@
+/* HEADER */
 header{
     height: 100px;
     background-color: #2c3e50;
@@ -12,12 +13,13 @@ header ul li{
     text-decoration: none;
 }
 
-.logo, .burger{
+.logo{
     font-size: 30px;
     color: white;
 }
 .burger{
     color: gray;
+    font-size: 25px;
 }
 .burger i{ 
     border: 2px solid gray;
@@ -31,4 +33,27 @@ header ul li{
     color: white;
     text-decoration: none;
 
+}
+
+
+/* JUMBOTRON */
+.ms_jumbotron{
+    background-color: #1abc9c;
+}
+.jumbotron-img{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    margin: 3rem auto 1rem;
+}
+.jumbotron-content{
+    text-align: center;
+    margin: 0 0 2rem 0;
+    color: white;
+}
+.first{
+    font-size: 30px;
+}
+.second{
+    font-size: 25px;
 }
