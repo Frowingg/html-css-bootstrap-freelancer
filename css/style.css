@@ -4,7 +4,9 @@
     background-color: red;
     margin: 0 auto;
 }
-
+h2{
+    text-align: center;
+}
 /* HEADER */
 header{
     height: 100px;
@@ -71,7 +73,6 @@ header ul li{
 
 /* PORTFOLIO */
 .ms_portfolio h2{
-    text-align: center;
     margin: 3rem 0;
 }
 .ms_portfolio-content{
@@ -86,14 +87,24 @@ header ul li{
     background-color: #1abc9c;
     padding: 2rem 0;
 }
-.about h2{
-    text-align: center;
-}
 .ms_container-about{
     width: 60%;
     background-color: blue;
     margin: 0 auto;
+    position: relative;
 }
 .ms_about-content{
     margin-bottom: 2rem;
+}
+.button{
+    width: 100px;
+    height: 30px;
+    background-color: pink;
+    margin: 0 auto;
+}
+
+/* CONTACT */
+#ok{
+    height: 250px;
+    background-color: aqua;
 }
