@@ -79,3 +79,21 @@ header ul li{
     background-color: pink;
     margin-bottom: 1rem;
 }
+
+/* ABOUT */
+.about{
+    margin: 3rem 0;
+    background-color: #1abc9c;
+    padding: 2rem 0;
+}
+.about h2{
+    text-align: center;
+}
+.ms_container-about{
+    width: 60%;
+    background-color: blue;
+    margin: 0 auto;
+}
+.ms_about-content{
+    margin-bottom: 2rem;
+}
