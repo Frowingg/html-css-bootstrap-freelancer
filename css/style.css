@@ -12,21 +12,54 @@ a:not(#info-link){
     text-decoration: none;
     color: white;
 }
-.star{
+.star {
     font-size: 35px;
     text-align: center;
+    vertical-align: middle;
 }
-.star i::before{
-    width: 50px;
-    height: 3px;
+.star::before{
+    content: ' ';
+    width: 80px;
+    height: 5px;
     background-color: white;
     display: inline-block;
+    vertical-align: middle;
 }
-.star i::after{
-    width: 50px;
-    height: 3px;
-    background-color: red;
+.star::after{
+    content: ' ';
+    width: 80px;
+    height: 5px;
+    background-color: white;
     display: inline-block;
+    vertical-align: middle;
+}
+.blue-star{
+    font-size: 35px;
+    text-align: center;
+    vertical-align: middle;
+}
+.blue-star::before{
+    content: ' ';
+    width: 80px;
+    height: 5px;
+    background-color: #2c3e50;
+    display: inline-block;
+    vertical-align: middle;
+}
+.blue-star::after{
+    content: ' ';
+    width: 80px;
+    height: 5px;
+    background-color:#2c3e50;
+    display: inline-block;
+    vertical-align: middle;
+}
+input.form-control, textarea.form-control{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    font-size: 22px;
+    padding-bottom: 20px;
 }
 
 /* HEADER */
@@ -169,7 +202,12 @@ header ul li{
     border-radius: 50%;
     line-height: 42px;
     cursor: pointer;
+    margin: 0 5px;
 
+}
+.ms_btn-contact{
+    color: white;
+    background-color: #1abc9c;
 }
 /* FOOTER */
 footer{
