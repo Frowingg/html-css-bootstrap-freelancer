@@ -12,6 +12,7 @@ a{
     text-decoration: none;
     color: white;
 }
+
 /* HEADER */
 header{
     height: 100px;
@@ -30,15 +31,17 @@ header ul li{
 .logo{
     font-size: 20px;
     color: white;
+    font-weight: 700;
 }
 .burger{
     color: gray;
     font-size: 25px;
 }
 .burger i{ 
-    border: 2px solid gray;
+    border: 1px solid #ddd;
     padding: 7px;
     border-radius: 4px;
+    cursor: pointer;
 }
 .ms_main_menu li{
     margin: 0 10px;
@@ -48,12 +51,11 @@ header ul li{
 /* JUMBOTRON */
 .ms_jumbotron{
     background-color: #1abc9c;
-    padding: 3rem 0;
+    padding: 2rem 0 1.5rem;
 }
 .jumbotron-img{
-    width: 200px;
-    height: 200px;
-    background-color: pink;
+    width: 300px;
+    height: 300px;
     margin: 0 auto 1.5rem;
 }
 .jumbotron-content{
@@ -61,14 +63,29 @@ header ul li{
     margin: 0 0 2rem 0;
     color: white;
 }
-.first{
-    font-size: 30px;
+.jumbotron-content h1{
+    font-size: 45px;
+    font-weight: 600;
 }
-.second{
-    font-size: 25px;
+.star{
+    font-size: 35px;
+}
+.star i::before{
+    width: 50px;
+    height: 3px;
+    background-color: white;
+    display: inline-block;
+}
+.star i::after{
+    width: 50px;
+    height: 3px;
+    background-color: red;
+    display: inline-block;
 }
 .third{
     font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 
@@ -76,14 +93,17 @@ header ul li{
 .ms_portfolio div{
     text-align: center;
     margin-bottom: 1.2rem;
+    color: #2c3e50;
 }
 .ms_portfolio h2{
     margin: 3rem 0 1.2rem;
+    font-weight: 600;
 }
 .ms_portfolio-content{
-    border: 1px solid red;
-    background-color: pink;
     margin-bottom: 1rem;
+}
+.ms_portfolio-content img{
+    width: 100%;
 }
 
 /* ABOUT */
@@ -99,6 +119,10 @@ header ul li{
     margin: 0 auto;
     position: relative;
     max-width: 1170px;
+}
+.ms_container-about h2{
+    font-weight: 600;
+    text-transform: uppercase;
 }
 .ms_about-content{
     margin-bottom: 2rem;
